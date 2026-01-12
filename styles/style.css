@@ -17,9 +17,44 @@
       align-items: center;
     /* min-height: 100vh; */
     justify-content: center;
+    flex-wrap: wrap;
 } 
 .box{
     border: 2px solid black;
     padding: 5rem;
     margin: 5rem;
+    border-color:rgb(247, 52, 117) ;
 }
+.container h4{
+    margin-top: 5rem;
+    color: rgb(247, 52, 117);
+    font-size: .9rem;
+}
+.container h2{
+    margin: .9rem;
+    font-size: 1.9rem;
+}
+.box p {
+   padding: .7rem ;
+   color: rgb(110, 109, 109);
+}
+.startbtn{
+    border: 2px solid rgb(247, 52, 117);
+    box-shadow: 4px 4px 6px rgba(247, 1, 165, 0.2);
+    padding: 1.1rem 1.9rem;
+    font-size: 1.1rem;
+    border-radius: 5rem;
+    margin-top: 1.4rem;
+    color: white;
+    background-color:  rgb(241, 19, 93);
+    
+}
+.startbtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(247, 52, 117);
+   
+}
+
+
+   
